@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+* {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+  background-color: #f3f1ef;
+}
+.container-fluid a {
+  color: #090909;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  margin-top: 30px;
+}
+.nav-link:hover {
+  border: 1px solid #545251;
+}
+.navbar {
+  margin-bottom: 0px;
+  padding-left: 30px;
+}
+.automn {
+  height: 85vh;
+}
+.pride {
+  height: 40vh;
+  margin-left: 20px;
+  position: absolute;
+  left: 60px;
+  margin-left: 0px;
+  top: 28px;
+}
+.images {
+  padding-left: 15%;
+}
+.text {
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  height: 85vh;
+  display: flex;
+}
+.text h3 {
+  font-size: 2.6em;
+  color: #545251;
+}
+.phoname h4 {
+  font-size: 6vw;
+  color: #090909;
+  z-index: 10;
+  width: 100vw;
+  background-color: transparent;
+  letter-spacing: 4px;
+  width: 100%;
+}
+.phoname h4 span {
+  background-color: transparent;
+  color: #f3f1ef;
+}
+.phoname {
+  position: absolute;
+  bottom: 40px;
+  left: 300px;
+  background-color: transparent;
+}
+.aboutmove {
+  position: relative;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.aboutmove div {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 40vh;
+}
+.aboutmove div h4 {
+  position: absolute;
+  left: 0;
+  font-size: 3em;
+  color: #545251;
+  white-space: nowrap;
+  line-height: 20vh;
+  cursor: default;
+  animation: animate 30s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/*styling about text section*/
+.about-content .row {
+  height: 100vh;
+}
+
+.photographer img {
+  height: 90vh;
+  margin-left: 120px;
+}
+.photographert {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 90vh;
+  padding-right: 60px;
+  padding-left: 0px;
+}
+.photographert p {
+  font-size: 3em;
+}
+
+/*styling the portfolio title move  */
+.portfoliomove div {
+  padding-top: 0px;
+  padding-bottom: 60px;
+  height: 40vh;
+}
+/*styling the portfolio section */
+.containerpor {
+  padding: 0 10%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerpor h2,
+.containerpor2 h2 {
+  font-size: 3.8vw;
+  text-align: center;
+}
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+  background-color: transparent;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-next {
+  background-color: transparent;
+}
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+/*this is the second section*/
+.containerpor2 {
+  padding: 40px 10%;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*styling the prices section*/
+
+.container-fluid .prices {
+  margin-bottom: 40px;
+}
+
+.all {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+  margin-top: 20px;
+}
+.package-price {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.features {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.package-name {
+  font-weight: 900;
+  font-size: 4em;
+}
+.package-price p {
+  font-weight: 900;
+  font-size: 2.6em;
+}
+.features {
+  font-size: 1.8em;
+}
+.package-button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+.package-button button {
+  font-size: 1.5em;
+  padding: 3px 50px;
+}
+.col-sm-6-prices-photo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/*styling the contact section*/
+.contact-section {
+  height: 40vh;
+}
+.get {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-control {
+  background-color: transparent;
+  border-color: #545251;
+  margin-top: 20px;
+  width: 70%;
+  font-size: 1.4em;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  border-radius: 0;
+}
+.form-ele {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chat {
+  font-size: 1.6em;
+  font-family: "Montserrat", sans-serif;
+  width: 30%;
+  margin-top: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  padding: 2px;
+}
+.chat:hover {
+  background-color: #545251;
+  color: #f3f1ef;
+  outline: none;
+  border: 2px solid #545251;
+}
+.social-photo {
+  margin-left: 6px;
+  margin-top: 10px;
+}
